@@ -1,0 +1,64 @@
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+background-color: #0c459c;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+#maincontainer{
+width: 900px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+}
+
+#topsection{
+background: #ff6600;
+height: 90px; /*Height of top section*/
+border-top-left-radius: 0.5em;
+border-top-right-radius: 0.5em;
+
+-moz-border-top-left-radius:0.5em; 
+-moz-border-top-right-radius: 0.5em;
+
+-webkit-border-top-left-radius:0.5em; 
+-webkit-border-top-right-radius: 0.5em;
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#middle{
+ background-color: #fff;	
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: #ff6600;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+
+border-bottom-left-radius: 0.5em;
+border-bottom-right-radius: 0.5em;
+
+-moz-border-bottom-left-radius: 0.5em;
+-moz-border-bottom-right-radius: 0.5em;
+
+-webkit-border-bottom-left-radius: 0.5em;
+-webkit-border-bottom-right-radius: 0.5em;
+
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
