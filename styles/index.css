@@ -91,43 +91,167 @@ padding-top: 15px;
 .menu1 li a:hover {color:#fff; background:#000 url(../imagens/button2.gif);}
 .menu1 li a:hover b {background:url(../imagens/button2.gif) no-repeat right top;}
 .menu1 li.current a:hover {color:#fff; background:#000 url(../imagens/button3.gif); cursor:default;}
-.menu1 li.current a:hover b {background:url(../imagens/button3.gif) no-repeat right top;}*/
-
-.menu{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url("../imagens/topMenuImages.png") repeat-x;box-shadow: #cecdcc 0.2em 0.2em 0.2em;}
-.menu li{padding:0; margin:0; list-style:none; display:inline;}
-.menu li a{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none;
-font:12px Verdana, Arial, Helvetica, sans-serif;
-color: #FFFFFF;
-    font-size: 14px;
-    font-weight: bold;
-    height: 29px;
-    line-height: 29px;
-    padding: 0 0 0 48px;
-	margin-left:8px;
-	cursor:pointer; background:url("../imagens/topMenuImages.png") 0px -30px no-repeat; outline:none;}
-.menu li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url("../imagens/topMenuImages.png") 100% -30px no-repeat;}
-.menu li a:hover{background-position:0px -60px; color:rgb(245,134,52);}
-.menu li a:hover span{background-position:100% -60px;}
-.menu li a.active, .menu li a.active:hover{line-height:30px; font:12px Verdana, Arial, Helvetica, sans-serif;
-color: #FFFFFF;
-    font-size: 14px;
-    font-weight: bold;
-    height: 29px;
-    line-height: 29px;
-    padding: 0 0 0 15px;background:url("../imagens/topMenuImages.png") 0px -90px no-repeat; color:rgb(245,134,52);}
-.menu li a.active span, .menu li a.active:hover span{background:url("../imagens/topMenuImages.png") 100% -90px no-repeat;}
-
-
-.menu1 {padding:0 0 0 32px; margin:0; list-style:none; height:35px; background:#fff url(../imagens/button1.gif); position:relative; border:1px solid #000; border-width:0 1px; border-bottom:1px solid #444;}
-.menu1 li {float:left;}
-.menu1 li a {display:block; float:left; height:35px; line-height:35px; color:#aaa; text-decoration:none; font-size:11px; font-family:arial, verdana, sans-serif; font-weight:bold; text-align:center; padding:0 0 0 8px; cursor:pointer;}
-.menu1 li a b {float:left; display:block; padding:0 16px 0 8px;}
-.menu1 li.current a {color:#fff; background:url(../imagens/button3.gif);}
-.menu1 li.current a b {background:url(../imagens/button3.gif) no-repeat right top;}
-.menu1 li a:hover {color:#fff; background:#000 url(../imagens/button2.gif);}
-.menu1 li a:hover b {background:url(../imagens/button2.gif) no-repeat right top;}
-.menu1 li.current a:hover {color:#fff; background:#000 url(../imagens/button3.gif); cursor:default;}
 .menu1 li.current a:hover b {background:url(../imagens/button3.gif) no-repeat right top;}
+.menu1 
+{
+	padding:0 0 0 32px; 
+	margin:0; 
+	list-style:none; 
+	height:35px; 
+	background:#fff url(../imagens/button1.gif); 
+	position:relative; 
+	border:1px solid #000; 
+	border-width:0 1px; 
+	border-bottom:1px solid #444;
+}
+
+.menu1 li
+ {
+	float:left;
+}
+
+.menu1 li a 
+{
+	display:block; 
+	float:left; 
+	height:35px; 
+	line-height:35px; 
+	color:#aaa; 
+	text-decoration:none; 
+	font-size:11px; 
+	font-family:arial, verdana, sans-serif; 
+	font-weight:bold; 
+	text-align:center; 
+	padding:0 0 0 8px; 
+	cursor:pointer;
+}
+
+.menu1 li a b 
+{
+	float:left; 
+	display:block; 
+	padding:0 16px 0 8px;
+}
+
+.menu1 li.current a 
+{
+	color:#fff; 
+	background:url(../imagens/button3.gif);
+}
+
+.menu1 li.current a b 
+{
+	background:url(../imagens/button3.gif) no-repeat right top;
+}
+
+.menu1 li a:hover 
+{
+	color:#fff; 
+	background:#000 url(../imagens/button2.gif);
+}
+
+.menu1 li a:hover b 
+{
+	background:url(../imagens/button2.gif) no-repeat right top;
+}
+
+.menu1 li.current a:hover 
+{
+	color:#fff; 
+	background:#000 url(../imagens/button3.gif); 
+	cursor:default;
+}
+
+.menu1 li.current a:hover b 
+{
+	background:url(../imagens/button3.gif) no-repeat right top;
+}*/
+
+
+
+
+
+.menu
+{
+	margin:0 auto; 
+	padding:0; 
+	height:30px; 
+	width:100%; 
+	display:block; 
+	background:url("../imagens/topMenuImages.png") repeat-x;box-shadow: #cecdcc 0.2em 0.2em 0.2em;
+}
+
+.menu li
+{
+	padding:0; 
+	margin:0; 
+	list-style:none; 
+	display:inline;
+}
+
+.menu li a
+{
+	float:left;
+    padding: 0px 15px 0px 15px;
+	display:block; 
+	color:rgb(255,255,255); 
+	text-decoration:none;
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+	margin-left:8px;
+	cursor:pointer; 
+	background:url("../imagens/topMenuImages.png") 0px -30px no-repeat; 
+	outline:none;
+}
+
+.first{
+	padding: 0px 15px 0px 0px;
+}
+.last{
+	padding: 0px 0px 0px 15px;
+}
+.menu li a span
+{
+	line-height:30px; 
+	float:left; 
+	display:block; 
+	padding: 0px 15px 0px 15px;
+	background:url("../imagens/topMenuImages.png") 100% -30px no-repeat;
+}
+
+.menu li a:hover
+{
+	background-position:0px -60px; 
+	color:rgb(245,134,52);
+}
+
+.menu li a:hover span
+{
+	background-position:100% -60px;
+}
+
+.menu li a.active, .menu li a.active:hover
+{
+	line-height:30px; 
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+	padding: 0px 15px 0px 15px;
+	background:url("../imagens/topMenuImages.png") 0px -90px no-repeat; 
+	color:rgb(245,134,52);
+}
+
+.menu li a.active span, .menu li a.active:hover span
+{
+	background:url("../imagens/topMenuImages.png") 100% -90px no-repeat;
+}
 
 #middle{
 	background-color: #fff;
