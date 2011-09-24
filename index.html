@@ -1,79 +1,166 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<title>GTEDUC - Grupo de Tecnologia Aplicada � Educa��o</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GTEDUC</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon (1).ico">  
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="styles/index.css" />
 
 </head>
+
 <body>
-	<div id="tudo">
-		<div id="topsection">
-			<img src="imagens/gteduc.png" />
+<div id="container">
+	<div id="header">
+    	<h1 id="h1header"><a href="http://www.gteduc.com.br"><span>GTEDUC</span></a></h1>
+        <h2>Nosso slogan ficará neste local</h2>
+        <div class="clear"></div>
+    </div>
+    <div id="nav">
+    	<ul class="sf-menu dropdown">
+        	<li class="selected"><a href="index.html">Home</a></li>
+            <li><a class="has_submenu" href="examples.html">GTEDUC</a>
+            	<ul>
+                	<li><a href="empresa.html">A empresa</a></li>
+                    <li><a href="#">Fotos</a></li>
+                </ul>
+            </li>
+			<li><a href="servicos.html">Serviços</a></li>
+			<li><a href="#">Clientes</a></li>
+            <li><a class="has_submenu" href="#">Suporte</a>
+            	<ul>
+                	<li><a href="#">Tradicional</a></li>
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="#">Atendimento Online</a></li>
+                </ul>
+            </li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+    
+    <div id="slides-container">
+        <div id="slides">
+            <div>
+                <div class="slide-image"><img src="images/slide-1.png" alt="Slide #1 image" /></div>
+                <div class="slide-text">
+                    <h2>Conceito Inovador</h2>
+                    <p>A GTEDUC é uma empresa inovadora que se propõe oferecer tecnologias voltadas para o meio educacional público e privado, visando desde o desenvolvimento de programas que auxiliem na gestão das instituições como também serviços especializados em educação à distância.A GTEDUC é formada por um grupo multidisciplinar de profissionais competentes e com vasta experiência na área de educação.</p>
+                </div>
+            </div>
+            
+            <div>
+            	<h2>Bem-vindo a comunidade Moodle!</h2>
+                <p>O Moodle é um Course Management System (CMS), também conhecido como Learning Management System (LMS) ou Ambiente Virtual de Aprendizagem (AVA). Ele é um aplicativo web gratuito que os educadores podem utilizam na criação de sites de aprendizado eficazes.Moodle.org é o nosso site da comunidade Moodle, onde ele é feito e discutido. Por favor, use os menus para explorar e participar!</p>
+                <p><a href="http://moodle.org">Moodle.org</a> é o nosso site da comunidade Moodle, onde ele é feito e discutido. Por favor, use os menus para explorar e participar!</p>
+
+            </div>
+            
+            <div>
+                <div class="slide-image slide-image-right"><img src="images/slide-3.png" alt="Slide #3 image" /></div>
+                <div class="slide-text">
+                    <h2>Educação a Distância</h2>
+                    <p>O crescimento da educação a distância é algo nítido no mundo todo, a cada ano surgem novas tecnologias que melhoram a qualidade dos estudos e solidificam a formação profissional. Nesse setor existe uma experimentação constante de recursos, onde métodos didático-pedagógicos são combinados para tornar a autoaprendizagem mais eficiente.</p>
+                </div>
+            </div>
 		</div>
-		<div id="nav">
-			<ul class="menu">
-			  <li><a href="index.html" class="active first" ><span>Home</span></a></li>
-			  <li><a href="quem_somos.html" ><span>Quem Somos</span></a></li>
-			  <li><a href="servico.html" ><span>Servi�os</span></a></li>
-			  <li><a href="cliente.html" ><span>Clientes</span></a></li>
-			  <li><a href="suporte.html" ><span>Suporte</span></a></li>
-			  <li><a href="download.html" ><span>Downloads</span></a></li>
-			  <li><a href="contatos.html" ><span>Contato</span></a></li>
-			</ul>
-		</div>
-		<div id="middle">
-			<div id="destaque">
-				<img src="imagens/bannerModelo.jpg" />
+        <div class="controls"><span class="jFlowNext"><span>Next</span></span><span class="jFlowPrev"><span>Prev</span></span></div>        
+        <div id="myController" class="hidden"><span class="jFlowControl">Slide 1</span><span class="jFlowControl">Slide 1</span><span class="jFlowControl">Slide 1</span></div>
+    </div>
+        
+    <div id="body" class="has-slider">
+		<div id="content">
+            <div class="noticias">
+				<h2>NOTÍCIAS</h2>
+				<ul>
+					<br /><li><img src="noticias/ouro-preto.jpg" />ESUD 2011 - VIII Congresso Brasileiro de Ensino Superior a Distância<br />O Congresso Brasileiro de Ensino Superior a Distância (ESUD) é uma realização periódica da Associação Universidade em Rede (UniRede). Em sua oitava edição, o evento terá como tema a “A EAD e a transformação da realidade brasileira”.<a href="http://www.esud2011.ufop.br/">Saiba mais...</a></li>
+				</ul>
 			</div>
-			<div id="content_tudo">
-				<div class="content_left">
-					<div class="content_title">
-						O Conhecimento � o Poder
+			<div class="boxM">
+				<h2>MOODLE GTEDUC</h2>
+				<div id="form1">
+					<div style="margin-left: 50px; margin-top:10px;" id="campos">
+						<form action="http://www.ead.unipe.br/login/index.php" method="post" name="frmMoodle">
+							<div id="profilelogin">
+								<table cellspacing="0" cellpadding="0" border="0" width="0" >
+									<tbody>
+										<tr valign="middle" >
+											<td valign="middle" style="border:0px solid #e0e0e0;"><label for="username">Nome de Usuário:</label></td>
+										</tr>
+										<tr valign="middle">
+											<td valign="middle" style="border:0px solid #e0e0e0;cellspacing:0;"><input type="text" name="username" value="Login" onFocus="if(this.value=='Login') this.value='';"></td>
+										</tr>
+										<tr valign="middle" >
+											<td valign="middle" style="border:0px solid #e0e0e0;"><label for="password">Senha:</label>
+										</tr>
+										<tr valign="middle" >
+											<td valign="middle" style="border:0px solid #e0e0e0;"><input type="password" value="senha" onFocus="if(this.value=='senha') this.value='';"></td>
+										</tr>
+										<tr valign="middle" >
+											<td valign="middle" style="border:0px solid #e0e0e0;"><input type="submit" value="Entrar"></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</form>
 					</div>
-					<div class="content_conteudo">
-						<img src="imagens/imgleft.jpg" />
+				</div>
 			
-					</div>
-				</div>
-				<div class="content_middle">
-					<div class="content_title">
-						GTEDUC Supera a Concorr�ncia
-					</div>
-					<div class="content_conteudo">
-						<img src="imagens/imgmiddle.jpg" />
-					</div>
-				</div>
-				<div class="content_right">
-					<div class="content_title">
-						Suporte Moodle Premium
-					</div>
-					<div class="content_conteudo">
-						<img src="imagens/imgright.jpg" />
-					</div>
-				</div>
+			<div class="boxS">
+				<h2>SUPORTE</h2>
+				<a href="#"><img src="images/suporte-online.jpg" alt="suporte_online" style="top:10px;position:relative;" /></a>
 			</div>
-			<div id="footer_main">
-				<div class="footer_logo">
-					<img src="imagens/gteduc2.png" />
-				</div>
-				<div class="footer_cr">
-					Copyright &copy; 2011 GTEDUC - Grupo de Tecnologias Aplicadas � Educa��o.
-					<br>
-					Todos os direitos reservados.
-				</div>
-				<div class="footer_link">
-					<a href="index.html"> Home </a>
-					 &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="quem_somos.html"> Quem Somos </a>
-					 &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="contatos.html"> Entre em Contato </a>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+			<!--<div class="box">
+                <h4><span>Notícias</span></h4>
+                <p>O crescimento da educação a distância é algo nítido no mundo todo, a cada ano surgem novas tecnologias que melhoram a qualidade dos estudos e solidificam a formação profissional. Nesse setor existe uma experimentação constante de recursos, onde métodos didático-pedagógicos são combinados para tornar a autoaprendizagem mais eficiente.</p>   
+                <h3>Moodle</h3>   
+                <p>O Moodle é um Course Management System (CMS), também conhecido como Learning Management System (LMS) ou Ambiente Virtual de Aprendizagem (AVA). Ele é um aplicativo web gratuito que os educadores podem utilizam na criação de sites de aprendizado eficazes.Moodle.org é o nosso site da comunidade Moodle, onde ele é feito e discutido. Por favor, use os menus para explorar e participar!</p>
+            </div>-->
+        </div>
+			
+        <!--
+        <div class="sidebar">
+            <ul>	
+				<li>
+                    <h4><span>Moodle GTEDUC</span></h4>
+                    <ul>
+                        <li>
+                        	<p style="margin: 0;">Aenean nec massa a tortor auctor sodales sed a dolor. Duis vitae lorem sem. Proin at velit vel arcu pretium luctus.</p>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h4><span>Suporte</span></h4>
+                    <ul>
+                        <li>
+                        	<p style="margin: 0;">Aenean nec massa a tortor auctor sodales sed a dolor. Duis vitae lorem sem. Proin at velit vel arcu pretium luctus.</p>
+                        </li>
+                    </ul>
+                </li>
+                
+              
+                
+            </ul> 
+        </div><div class="clear"></div>-->
+    	
+    </div>
+    <div id="footer">
+        <div class="footer-content">
+                <span class="sitename"></span>
+                 
+                 <div class="clear"></div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2011 <a href="http://www.gteduc.com.br">GTEDUC</a> - Grupo de Tecnologia Aplicada à Educação | Todos os direitos reservados.</a></p>
+         </div>
+    
+    </div>
+</div>
 </body>
 </html>
