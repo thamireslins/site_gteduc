@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<header_vars>
+<graphics_color>FFFFFF</graphics_color>
+<animation_loop>no</animation_loop>
+
+<header>
+	<text_header_h1 x_pos="380" y_pos="135" size="19" letter_spacing="0" text_color="FFFFFF">YOUR WAY TO SUCCESS</text_header_h1>
+	<text_header_h2 x_pos="385" y_pos="160" size="10" letter_spacing="1.9" text_color="FFFFFF">YOUR OWN SLOGANS AND IMAGES</text_header_h2>	
+	<image blur="no">images/flashimages/test.jpg</image>
+</header>
+
+
+
+<music_file loop="no" music_control="no" play_music="yes">sounds/music.mp3</music_file>
+<play_transition_sound_file>yes</play_transition_sound_file>
+<display_preload graphic_color="FF9600">yes</display_preload>
+<replay display="no" x_pos="493" y_pos="135" size="8" letter_spacing="1" bgd_color="FFFFFF" text_color="000000"> REPLAY</replay>
+</header_vars>
